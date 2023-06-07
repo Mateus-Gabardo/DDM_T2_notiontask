@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">notionTask</string>
+    <string name="title_home">Tarefas</string>
+    <string name="title_dashboard">Marcação</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="item_name">Codigo</string>
+    <string name="item_description">Descrição</string>
+    <string name="item_time_start">Ínicio</string>
+    <string name="item_time_end">Fim</string>
+    <string name="item_time_duration">Duração</string>
+</resources>
