@@ -7,16 +7,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.LifecycleOwner;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.notiontask.adapter.TaskAdapter;
+import com.example.notiontask.repository.adapter.TaskAdapter;
 import com.example.notiontask.databinding.FragmentTaskBinding;
 import com.example.notiontask.model.TaskModel;
 import com.example.notiontask.repository.TaskRepository;
