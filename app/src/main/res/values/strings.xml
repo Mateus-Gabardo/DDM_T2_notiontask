@@ -6,6 +6,6 @@
     <string name="item_name">Codigo</string>
     <string name="item_description">Descrição</string>
     <string name="item_time_start">Ínicio</string>
-    <string name="item_time_end">Fim</string>
+    <string name="item_time_end">Tempo total</string>
     <string name="item_time_duration">Duração</string>
 </resources>

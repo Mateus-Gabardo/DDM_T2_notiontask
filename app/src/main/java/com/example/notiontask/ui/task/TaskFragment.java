@@ -66,9 +66,7 @@ public class TaskFragment extends Fragment {
     private List<TaskModel> exemplos(){
         ArrayList<TaskModel> task = new ArrayList<>();
         TaskModel t1 = new TaskModel("ERPDUB-2345", "Desenvolver tela de login", "08:00", 4.0 );
-        t1.setHoraFim("12:00");
         TaskModel t2 = new TaskModel("ERPDUB-2346", "Desenvolver tela de cadastro", "13:30", 4.5 );
-        t2.setHoraFim("18:00");
         task.add(t1);
         task.add(t2);
         return task;

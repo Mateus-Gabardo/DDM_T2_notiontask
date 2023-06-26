@@ -13,7 +13,6 @@ public class TaskModel {
     @NotNull
     private String descricao;
     private String horaInicio;
-    private String horaFim;
     private double tempo;
 
     public TaskModel(String codigo, String descricao) {
@@ -37,9 +36,6 @@ public class TaskModel {
         this.horaInicio = horaInicio;
     }
 
-    public void setHoraFim(String horaFim) {
-        this.horaFim = horaFim;
-    }
 
     public void setTempo(double tempo) {
         this.tempo = tempo;
@@ -57,10 +53,6 @@ public class TaskModel {
 
     public String getHoraInicio() {
         return horaInicio;
-    }
-
-    public String getHoraFim() {
-        return horaFim;
     }
 
     public double getTempo() {

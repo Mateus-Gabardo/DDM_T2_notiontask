@@ -40,7 +40,6 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
         holder.textViewCodigo.setText(task.getCodigo());
         holder.textViewDescription.setText(task.getDescricao());
         holder.textViewTimesInicio.setText(task.getHoraInicio());
-        holder.textViewTimesFim.setText(task.getHoraFim());
         holder.textViewTimes.setText(String.valueOf(task.getTempo()));
     }
 
@@ -53,14 +52,12 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
         TextView textViewCodigo;
         TextView textViewDescription;
         TextView textViewTimesInicio;
-        TextView textViewTimesFim;
         TextView textViewTimes;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             textViewCodigo = itemView.findViewById(R.id.textViewCodigo);
             textViewDescription = itemView.findViewById(R.id.textViewDescription);
             textViewTimesInicio = itemView.findViewById(R.id.textViewTimesInicio);
-            textViewTimesFim = itemView.findViewById(R.id.textViewTimesFim);
             textViewTimes = itemView.findViewById(R.id.textViewTimes);
         }
     }
