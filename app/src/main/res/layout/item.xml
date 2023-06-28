@@ -72,15 +72,6 @@
                         android:text="@string/item_time_start"
                         android:textSize="13sp" />
 
-                    <TextView
-                        android:id="@+id/textViewTimesFim"
-                        android:layout_width="40dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/roboto_bold"
-                        android:text="@string/item_time_end"
-                        android:textSize="13sp" />
-
                 </LinearLayout>
 
                 <TextView

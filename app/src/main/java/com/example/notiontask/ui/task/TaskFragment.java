@@ -7,16 +7,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.LifecycleOwner;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.notiontask.adapter.TaskAdapter;
+import com.example.notiontask.repository.adapter.TaskAdapter;
 import com.example.notiontask.databinding.FragmentTaskBinding;
 import com.example.notiontask.model.TaskModel;
 import com.example.notiontask.repository.TaskRepository;
@@ -69,9 +66,7 @@ public class TaskFragment extends Fragment {
     private List<TaskModel> exemplos(){
         ArrayList<TaskModel> task = new ArrayList<>();
         TaskModel t1 = new TaskModel("ERPDUB-2345", "Desenvolver tela de login", "08:00", 4.0 );
-        t1.setHoraFim("12:00");
         TaskModel t2 = new TaskModel("ERPDUB-2346", "Desenvolver tela de cadastro", "13:30", 4.5 );
-        t2.setHoraFim("18:00");
         task.add(t1);
         task.add(t2);
         return task;

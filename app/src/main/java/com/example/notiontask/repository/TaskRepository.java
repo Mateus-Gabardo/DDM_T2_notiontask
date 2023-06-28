@@ -8,6 +8,7 @@ import androidx.room.Room;
 import com.example.notiontask.AppDatabase;
 import com.example.notiontask.model.TaskModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class TaskRepository {
@@ -65,7 +66,7 @@ public class TaskRepository {
             return TaskModels;
         }
         catch (Exception e){
-            return null;
+            return new ArrayList<>();
         }
     }
 }
